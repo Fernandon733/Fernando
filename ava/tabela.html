@@ -1,0 +1,73 @@
+	<!DOCTYPE html>
+	<html lang="pt-br">
+
+	<head>
+		<meta charset="utf-8">
+		<title> Sports Schedules</title>
+		<script src="main.js"></script>
+		<link rel="stylesheet" type="text/css" href="css.css"/>
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+		<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+	</head>
+
+
+	<body>
+		<header class="jumbotron mb-0 bg-success text-white">
+			<h1 class="pb-0">Sports Schedules</h1>
+
+		</header>
+
+		<nav class="navbar navbar-expand-lg navbar-dark bg-dark mb-5 text-white">
+			<a class="navbar-brand text-white" href="#">Menu</a>
+			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+				<span class="navbar-toggler-icon"></span>
+			</button>
+			<div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+				<div class="navbar-nav">
+					<a class="nav-item nav-link active" href="#">Inicio<span class="sr-only">(current)</span></a>
+					<a class="nav-item nav-link" href="#">Futebol</a>
+					<a class="nav-item nav-link" href="#">Basquete</a>
+					<a class="nav-item nav-link disabled" href="#">Formula 1</a>
+				</div>
+			</div>
+		</nav>
+		<div class="container col-xl-6">
+			<table class="table">
+				<thead>
+					<tr>
+						<th scope="col">#</th>
+						<th scope="col">Times</th>
+						<th scope="col">Placar</th>
+					</tr>
+				</thead>
+				<tbody >
+					<tr>
+						<th scope="row">1</th>
+						<td>Brasil x Alemanha</td>
+						<td>7X1</td>
+
+					</tr>
+					<tr>
+						<th scope="row">2</th>
+						<td>Argentina x Suiça</td>
+						<td id = "p1">0x0</td>
+
+					</tr>
+
+				</tbody>
+			</table>	
+			<button type="button" class="btn btn-dark col-xl-12" onclick="placar()">Atualizar placar</button>
+		</div>
+		<footer class = "jumbotron jumbotron-fluid text-center bg-dark text-white mt-4">
+
+			Nathalie Rodrigues RA: 20909367 <br>
+			Fernando Nascimento RA: 20885224
+		</footer>
+	</body>
+
+
+
+	
+	
